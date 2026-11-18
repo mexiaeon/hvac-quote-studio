@@ -283,7 +283,7 @@ footer{font-size:12px}
  footer{font-size:11px}
 }
 
-@media(min-width:901px){.preview-wrap{position:sticky;top:88px;align-self:start;max-height:calc(100vh - 104px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.preview-wrap .preview-card{margin-bottom:4px}}
+@media(min-width:901px){.preview-wrap{position:static;top:auto;align-self:stretch;max-height:none;overflow:visible;overscroll-behavior:auto;display:flex;flex-direction:column}.contractor-summary{margin-top:auto}}
 
 /* Contractor-only summary fills the space beneath the customer proposal */
 .contractor-summary{margin-top:16px;padding:18px 20px;background:#fff;border:1px solid #dce4ec;border-left:4px solid var(--brand-accent,var(--green));border-radius:12px;box-shadow:0 8px 22px rgba(16,27,44,.055)}
